@@ -1,0 +1,256 @@
+html{
+	background-color: black;
+}
+.wrapper{
+	max-width: 1500px;
+	height: auto;
+	margin: 0 auto;
+	background: black;
+}
+header{
+	display: flex;
+	background: black;
+	height: 100px;
+}
+nav{
+	background: black;
+	list-style: none;
+}
+nav ul{
+	display: flex;
+	margin-left: 224px;
+}
+nav li a{
+	width: 100px;
+	text-align: center;
+	color: white;
+	padding: 10px;
+	display: block;
+	border-right:1px solid red;
+	text-decoration: none;
+}
+nav li a:hover{
+	background-color: #eeeeee;
+	color: black;
+}
+nav li:first-child a{
+	border-left:1px solid red;
+}
+.container{
+	display: flex;
+	margin: 0 20px;
+}
+.left{
+	background: black;
+	width: 200px;
+	text-align: center;
+}
+.member{
+	background: white;
+	border-radius: 15px;
+	padding: 10px;
+	margin: 5px;
+}
+.member2{
+	padding: 10px;
+}
+.member2 hr{
+	border: none;
+	border-top: dotted 1px;
+}
+input.login{
+	width: 100px;
+	font-size: large;
+}
+input.regi{
+	width: 100px;
+	font-size: large;
+}
+input.my{
+	width: 100px;
+	font-size: large;
+}
+input.out{
+	width: 100px;
+	font-size: large;
+}
+.sns{
+	background: white;
+	border-radius: 15px;
+	padding: 10px;
+	margin: 5px;
+}
+table{
+	width: 150px;
+	height: 250px;
+}
+th{
+	text-align: center;
+	vertical-align: middle;
+}
+table a{
+	text-decoration: none;
+	color: black;
+}
+table a:hover{
+	color: gray;
+}
+.line{
+	color: #00b900;
+}
+.twitter{
+	color: #55acee;
+}
+.face{
+	color: #3b5998;
+}
+.insta{/*アイコンの背景*/
+  position: relative;/*相対配置*/
+  display: inline-block;
+  width: 41px;/*幅*/
+  height: 41px;/*高さ*/
+  text-align: center;/*垂直中央に*/
+  background: -webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+  background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;/*グラデーション①*/
+  overflow: hidden;/*はみ出た部分を隠す*/
+  border-radius: 5px;/*角丸に*/
+}
+.insta:before{/*グラデーションを重ねるため*/
+  content: '';
+  position: absolute;/*絶対配置*/
+  top: 23px;/*ずらす*/
+  left: -18px;/*ずらす*/
+  width: 60px;/*グラデーションカバーの幅*/
+  height: 60px;/*グラデーションカバーの高さ*/
+  background: -webkit-radial-gradient(#ffdb2c 10%, rgba(255, 105, 34, 0.65) 55%, rgba(255, 88, 96, 0) 70%);
+  background: radial-gradient(#ffdb2c 10%, rgba(255, 105, 34, 0.65) 55%, rgba(255, 88, 96, 0) 70%);/*グラデーション②*/
+}
+.fa-instagram {/*アイコン*/
+  color: #FFF;/*白に*/
+  position: relative;/*z-indexを使うため*/
+  z-index: 2;/*グラデーションより前に*/
+  font-size: 35px;/*アイコンサイズ*/
+  line-height: 41px;/*高さと合わせる*/
+	margin-top: 3px;
+}
+.you{
+	color: #cd201f;
+}
+.right{
+	flex: 1;
+	background: black;
+}
+.rblock{
+	background: #FFF0F5;
+	border-radius: 15px;
+	padding: 20px;
+	margin: 5px;
+	/*height: 2000px;*/
+}
+.rblock h1{
+	font-size: large;
+
+}
+.main{
+	border-radius: 15px;
+	padding: 20px;
+	background: #cccccc;
+}
+.main textarea{
+	margin-left: 10px;
+	width: 500px;
+	height: 10em;
+}
+.main ul{
+	list-style-type: disc;
+	margin-left: 20px;
+}
+.main ol{
+	list-style-type: decimal;
+	margin-left: 20px;
+}
+.main li{
+	font-size: 15px;
+}
+.string{
+	font-size: 15px;
+}
+.main p{
+	font-weight: bold;
+	font-size: 15px;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+.idname{
+	color: white;
+}
+.comment{
+	font-size: large;
+}
+.date{
+	font-size: small;
+	color: white;
+}
+.red a{
+	font-size: small;
+	color: white;
+}
+.red a:hover{
+	color: black;
+}
+.com a{
+	color: black;
+}
+.com a:hover{
+	color: white;
+}
+.section{
+	text-align: center;
+}
+.section h1{
+	font-size: large;
+}
+.reg{
+	font-size: 12px;
+	/*text-align: left;*/
+}
+.reg label{
+	display: inline-block;
+  width: 200px;
+  text-align: left;
+}
+.reg2 input{
+	width: 200px;
+}
+.mainp{
+	column-count: 3;
+  column-gap: 0;
+}
+.grid {
+  padding: 5px;
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+.gridp{
+	padding: 5px;
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+  break-inside: avoid;
+	text-align: center;
+}
+.gridp img{
+	width: 70%;
+  vertical-align: bottom;
+}
+img {
+  width: 100%;
+  vertical-align: bottom;
+	border: none;
+}
+footer{
+	background: black;
+	height: 50px;
+}
