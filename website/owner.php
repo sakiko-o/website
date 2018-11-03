@@ -1,8 +1,8 @@
 <?php
 //Mysql
-$dsn = 'mysql:dbname=tt_235_99sv_coco_com; host=localhost';
-$user = 'tt-235.99sv-coco';
-$password = 'P7uyRLwb';
+$dsn = '';
+$user = '';
+$password = '';
 $pdo = new PDO($dsn, $user, $password);
 
 session_start();
